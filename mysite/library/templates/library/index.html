@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <ul>
+    {% for books in all_books %}
+        <li>{{ books.bookname }}</a></li>
+        <li>{{ books.writer }}</a></li>
+        <br>
+    {% endfor %}
+    </ul>
+<div class="container">
+	<div class="top">
+		We Provide free Education for All. <br>
+	</div>
+
+	<div class="menu">
+		<a href="#" id="freelink">Library</a>
+			<div class="menu-2">
+				<a href="2.html" id="explore">English Books</a>
+				<a href="3.html" id="explore">Urdu Books</a>
+				<a href="f1.html" id="explore">Catalog</a>
+
+
+				<div class="vertical-line"></div>
+
+				<a href="signin.html" id="My-Classroom">Sign In</a>
+			</div>
+
+			<div class="menuafterbar">
+				 <video src="video.mp4" autoplay controls loop height="450" id="videoid"></video>
+				 <div class="imagesaftervideo">
+				 <br>
+				 	<img src="firstpage/mg.png">
+				 		<div class="afterimage">
+				 			Search by Author
+				 		</div>
+				 	<br>
+				 <br>
+				 	<img src="firstpage/js.png">
+				 		<div class="afterimage">
+				 			Search by book type
+				 		</div>
+				 	<br>
+				 <br>
+				 	<img src="firstpage/rs.png">
+				 	<div class="afterimage">
+				 			Search by Subject
+				 	</div>
+				 	<br>
+				 </div>
+			</div>
+
+
+			 <div class="imagesaftervideo_below">
+				 <br>
+				 	<img src="firstpage/below1.png" id="picturesbelow">
+
+
+				 	<img src="firstpage/below2.png" id="picturesbelow">
+
+
+				 	<img src="firstpage/below3.png">
+
+				 		<br>
+				 </div>
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+<div class="foot"><hr>
+	Further Links<br>
+	<a id="links_at_end" href="/advantage.html">Advantage</a>
+	<a id="links_at_end" href="/blog.html">Blog</a>
+	<a id="link_at_end" href="contactus.html">Contact Us</a>
+</div>
+
+<br><br><br>
+</div>
+
+</body>
+</html>
